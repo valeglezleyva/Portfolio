@@ -1,0 +1,107 @@
+/* Overall website */
+
+.wrapper {
+    margin: 20px auto;
+}
+
+h2 {
+    color: cadetblue;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+    height: 1px;
+    background-color: cadetblue;
+    margin-bottom: 30px;
+}
+
+.navbar {
+    padding:0 20px;
+}
+
+.navbar-brand {
+    padding: 20px;
+    font-size: 15px;
+    margin: 0;
+}
+
+.container {
+    margin: 0;
+}
+
+.card {
+    margin: 20px;
+    overflow: auto;
+    clear: both;
+}
+
+.card-body {
+    margin: 20px;
+    position: relative;
+}
+
+/* About */
+.img-about{
+    float: left;
+    margin-right: 20px;
+}
+
+#name {
+    background-color: cadetblue;
+    color: white;
+    margin-left: 20px;
+    padding: 10px;
+    top: 0;
+}
+
+#name h2{
+    color: white;
+    text-align: center;
+}
+
+/* Portfolio */
+/* .img-portfolio {
+    margin: 40px;
+    padding: 0;
+    position: static;
+} */
+
+.row {
+    display: flex;
+}
+
+.col-md-6 {
+    flex: 33.33%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+/* Contact */
+
+/* @media (max-width: 702px) {
+
+    #name {
+        width: 100%;
+        margin: 0;
+       
+    }
+
+    .navbar {
+        padding: 0;
+        justify-content: center;
+    }
+}
+
+/* @media (min-width: 703px) and (max-width: 768px) {
+    .col-md-8 {
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+} */ */
