@@ -49,6 +49,8 @@ hr {
 .img-about{
     float: left;
     margin-right: 20px;
+    width: 200px;
+    height: auto;
 }
 
 #name {
@@ -65,11 +67,10 @@ hr {
 }
 
 /* Portfolio */
-/* .img-portfolio {
-    margin: 40px;
-    padding: 0;
-    position: static;
-} */
+.img-portfolio {
+    width: 300px;
+    height: 200px;
+}
 
 .row {
     display: flex;
@@ -80,28 +81,3 @@ hr {
     padding: 5px;
     margin-bottom: 10px;
 }
-
-
-
-/* Contact */
-
-/* @media (max-width: 702px) {
-
-    #name {
-        width: 100%;
-        margin: 0;
-       
-    }
-
-    .navbar {
-        padding: 0;
-        justify-content: center;
-    }
-}
-
-/* @media (min-width: 703px) and (max-width: 768px) {
-    .col-md-8 {
-        flex: 0 0 66.666667%;
-        max-width: 66.666667%;
-    }
-} */ */
